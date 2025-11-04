@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route("/")
 def index():
 	# Change the message to something unique
-	return jsonify({"message": "it works! Student XXX"})
+	return jsonify({"message": "it works! Student Rodrigo"})
 	
 if __name__ == "__main__":
 
